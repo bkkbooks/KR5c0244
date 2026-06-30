@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0244/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0244/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上肘後玉經方
+  date: '2015-08-29 00:54:55.739229'
+  source:
+    repository: kanripo
+    path: KR5c0244
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0244_000-HFL.yaml, hash: 'sha256:bf52812dbd12227279e863ffb00219ac35bf2a92d3bfdb8e22acab0ecfe758fa'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0244_000-HFL.markers.yaml, hash: 'sha256:3c83d118edba16b80f5879bb162f92235b0fb31644aa408cff494b7a5fe03efa'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0244_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1400
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3b5e5052529fcec1ee6c8a11cf88a5e451d09792cf1ae34b66b6c3db2b72633f
